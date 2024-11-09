@@ -1,0 +1,124 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu{
+  max-width: 100%;
+  /*padding: 10px;*/
+  background-color: #FFFFFF;
+  justify-content: space-between;
+}
+.main-contents {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  max-width: 100%;
+  /*padding: 1px;*/
+  background-color: #FFFFFF;
+    justify-content: space-between;
+}
+.left-menu{
+  max-width: 100px;
+  /*padding: 10px;*/
+  background-color: #FFFFFF;
+  border-right:1px solid #c2c5cb;
+    justify-content: space-between;
+}
+
+header img {
+	max-width: 100%;
+}
+
+/* 左リンク系 */
+nav {
+	max-width: 100%;
+	text-align: center;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+}
+nav li a {
+	background-color: rgba(255, 204, 51, 0.8);
+	font-size: 0.5rem;
+    color: #000000;
+	display: block;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+}
+nav li a leftgreentabu{
+    background-color: rgba(106, 203, 2, 0.8);
+    font-size: 0.5rem;
+    color: #FFFFFF;
+    display: block;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+}
+nav img{
+    max-width: 100%;
+}
+lefttext {
+    font-size: 0.4rem;
+	float: left;
+    line-height: 1;
+    color: rgb(90, 161, 199); 
+    line-height:20px;
+}
+/* 左リンク系 */
+/* トップ */
+main {
+	flex: 1;
+	/*padding: 1rem;*/
+    max-width: 100%;
+}
+
+main toptabu{
+    width: 100%;
+    list-style: none;
+    background-color: rgba(255, 204, 51, 0.8);
+	font-size: 0.5em;
+	display: block;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+    float: left;
+    color: black;
+}
+main toptext1 {
+	font-size: 0.3rem;
+	text-align: center;
+    float: left;
+}
+main toptext2{
+    font-size: 0.5rem;
+    float: left;
+    display: block;
+	font-weight: bold;
+    list-style: none;
+	margin: 0;
+    text-decoration: none;
+}
+main img{
+    max-width: 100%;
+}
+main monthlyfee h1{
+    color: rgb(226, 162, 88);
+    font-size: 0.7rem;
+    border-left:2px solid rgb(226, 162, 88); /*線の設定*/
+    display: block;
+	font-weight: bold;
+	line-height: 1;
+	text-decoration: none;
+    padding-left: 5px;
+}
+
+/* トップ */
