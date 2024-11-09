@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+/* 表示される全体の指定 */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+/* id=""は先頭に"#" */
+#wrapper {
+	max-width:900px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+/* 大枠ボックス */
+/*.layer{
+    position: fixed;
+    top: 140px;
+    left: 0.9px;
+}*/
+
+
+header {
+    width: 100%;
+	
+    text-align: center;
+}
+header img {
+	width: 100%;
+    max-width: 900vw;
+}
+
+/* class=""は先頭に"." */
+.page_content {
+	display: flex;
+}
+border1{
+    border-right:2px solid #c2c5cb;
+}
+border2 nav {
+    border-left:2px solid #c2c5cb;
+    
+}
+
+/* 左リンク系 */
+nav {
+	width: 185px;
+	text-align: center;
+}
+layer{
+    position: fixed;
+    top: 200px;
+    left: 2px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+}
+nav li a {
+	background-color: rgba(255, 204, 51, 0.8);
+	font-size: 0.8rem;
+	display: block;
+	font-weight: bold;
+	line-height: 2.6;
+	text-decoration: none;
+}
+nav li a test1{
+    background-color: rgba(106, 203, 2, 0.8);
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    display: block;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+}
+test {
+    font-size: 0.7rem;
+	float: left;
+    line-height: 2;
+    color: rgb(90, 161, 199); 
+    line-height:45px;
+}
+
+/* 左リンク系 */
+
+
+main {
+	flex: 2;
+	padding: 1rem;
+    width: 70%;
+}
+
+main test{
+    width: 100%;
+    margin: 0;
+	padding: 0;
+    list-style: none;
+	margin: 0;
+    background-color: rgba(255, 204, 51, 0.8);
+	font-size: 1.0em;
+	display: block;
+	font-weight: bold;
+	line-height: 2;
+	text-decoration: none;
+    float: left;
+    color: black;
+}
+
+
+main h1 {
+	font-size: 0.8rem;
+	text-align: center;
+    float: left;
+}
+
+main test1{
+    font-size: 1.0rem;
+	text-align: center;
+    float: left;
+    display: block;
+	font-weight: bold;
+    	list-style: none;
+	margin: 0;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 0.8rem;
+	text-align: center;
+    float: left;
+}
+
+.indent {
+	margin: 1rem 2rem;
+	line-height: 2;
+}
+
+footer p {
+	margin: 3rem;
+	line-height: 7;
+    font-size: 1;
+}
+
+footer p img {
+    
+	float: center;
+	margin-right: 1rem;
+}
+
+
+
+section{
+	clear: both;
+	padding-top: 30px;
+}
+
+
+footer {
+	max-width: 900px;
+	line-height: 3;
+	text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+	.page_content {
+		display: flex;
+		flex-direction: column;
+	}
+	nav {
+		width: 100%;
+	}
+	main {
+		width: 100%;
+	}
+}
