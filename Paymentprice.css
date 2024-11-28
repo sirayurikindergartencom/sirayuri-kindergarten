@@ -87,13 +87,18 @@ main toptabu{
     list-style: none;
     background-color: rgba(255, 204, 51, 0.8);
 	font-size: 0.5rem;
-	display: block;
 	font-weight: bold;
 	line-height: 2;
 	/*text-decoration: none;*/
     float: left;
     color: black;
+    display: table;
+    padding: 1px;
+    border-radius: 2px 2px 2px 2px;
 }
+
+	
+
 main toptext1 {
 	font-size: 0.3rem;
 	text-align: center;
@@ -143,6 +148,15 @@ table a{
 thead{
     text-align: center;
 
+}
+
+.navi2 {
+    color: black;
+    font-weight: bold;
+    font-size: 0.37rem;
+    display: table-cell;
+    text-align: right;
+    padding-right: 5px;
 }
 thead th {
   background: rgba(255, 209, 69, 0.36);
